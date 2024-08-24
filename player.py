@@ -2,7 +2,7 @@ from circleshape import *
 from constants import *
 import pygame
 
-class player(CircleShape):
+class Player(CircleShape):
     def __init__(self, x, y):
         super().__init__(x,y, PLAYER_RADIUS)
         self.position = pygame.Vector2(x, y)
